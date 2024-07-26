@@ -12,7 +12,7 @@ public class LoginTest extends BaseClass
 	void LoginApp()
 	{
 		Reporter.log("application opened");
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 
 	}
 
