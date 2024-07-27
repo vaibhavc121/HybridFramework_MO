@@ -5,8 +5,8 @@
     <classes>
       <class name="testcases.LoginTest">
         <methods>
-          <include name="tearDown"/>
           <include name="Setup"/>
+          <include name="tearDown"/>
           <include name="LoginApp"/>
         </methods>
       </class> <!-- testcases.LoginTest -->

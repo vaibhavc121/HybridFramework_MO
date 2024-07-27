@@ -5,7 +5,7 @@
 	<groupId>HybridFramework_MO</groupId>
 	<artifactId>HybridFramework_MO</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<!--plug-ins required for executing tests-->
 
 	<!--<build>
@@ -60,7 +60,6 @@
 	</build>
 
 
-
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -84,6 +83,19 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.1.2</version>
 		</dependency>
+
+		<!--log4j dependency starts-->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.14.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.14.1</version>
+		</dependency>
+		<!--log4j dependency ends-->
 
 
 	</dependencies>
